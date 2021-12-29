@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    height: 100vh;
+
+    .doctor-image {
+        background: transparent url('../../assets/doctor-image.png') 100% 0% no-repeat padding-box;
+        background-size: cover;
+        mix-blend-mode: multiply;
+        opacity: 1;
+        height: 100%;
+        width: 50%;
+    }
+
+    .login-content {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        form {
+            width: 480px;
+            margin-top: 22%;
+
+            h1 {
+                text-align: center;
+                font: normal normal bold 50px/67px Segoe UI;
+                color: #4E4E4E;
+                opacity: 1;
+            }
+    
+            p{
+                margin: 40px 0 65px 0;
+                text-align: center;
+                font: normal normal normal 16px/26px Proxima Nova;
+                color: #646D82;
+                opacity: 0.5;
+            }
+    
+            input {
+                outline: 0;
+                margin-bottom: 45px;
+                border: none;
+                border-bottom: 2px solid #E9E9F0;
+                opacity: 1;
+                height: 30px;
+                width: 400px;
+                text-align: left;
+                font: normal normal normal 15px/24px Proxima Nova;
+                color: #646D82;
+                opacity: 0.6;
+            }
+    
+            .form-group {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                .remember {
+                    display: flex;
+                    align-items: center;
+    
+                    input {
+                        width: 20px;
+                        height: 20px;
+                        margin: 0;
+                        border: 1px solid #808495;
+                        border-radius: 4px;
+                        opacity: 1;
+                    }
+                    span {
+                        margin-left: 20px;
+                        text-align: left;
+                        font: normal normal normal 16px/26px Proxima Nova;
+                        color: #646D82;
+                        opacity: 1;
+                    }
+                }
+    
+                a {
+                    text-align: right;
+                    font: normal normal normal 16px/26px Proxima Nova;
+                    color: #646D82;
+                }
+            }
+    
+            .button-group{
+                margin-top: 75px;
+                display: flex;
+                justify-content: space-between;
+
+                button {
+                    text-align: center;
+                    font: normal normal normal 20px/31px Avenir;
+                    border-radius: 4px;
+                }
+
+                .login-button {
+                    padding: 13px 84px;
+                    color: #FFFFFF;
+                    background: #2CD889 0% 0% no-repeat padding-box;
+                    border: 1px solid #DDDDDD;
+                }
+    
+                .register-button {
+                    padding: 13px 58px;
+                    background: white;
+                    color: #4D4F5C;
+                    border: 1px solid #2CD889;
+                }
+            }
+        }
+
+        .terms {
+            margin-bottom: 20px;
+            text-align: center;
+            font: normal normal normal 12px/14px Avenir;
+            color: #DDDDDD;
+            opacity: 1;
+        }
+    }
+}
