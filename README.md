@@ -2,7 +2,7 @@
 
 Construir interface de login, cadastro e dashboard com integração com a API
 
-<a href="https://github.com/j-rdel/desafio-hoobox-front">Link para API</a>
+<a href="https://github.com/j-rdel/desafio-hoobox-api">Link para API</a>
 
 ------
 
